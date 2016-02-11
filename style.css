@@ -1,0 +1,143 @@
+
+body  {
+  background : #dad5c1;
+  text-align : center;
+  }
+table {
+  text-align : center;
+}
+h3  {
+  text-align : center;
+  text-decoration : underline;
+  }
+p {
+  padding : 2%;
+  }
+img {
+  text-align : center;
+  max-width : 100%;
+  height : auto;
+  width : auto;
+  } 
+#wrapper  {
+  text-align : center;
+  margin : 0 auto;
+  max-width : 980px;
+  width : 96%;
+  background : #c88898;
+  padding : 2%;
+  border-radius : 10px;
+  }
+header  {
+  width : 96%;
+  padding : 5px;
+  text-align : center;
+  }
+nav {
+  text-align : center;
+  background : #a09885;
+  padding : 8px;
+  border-radius : 10px;
+  }
+nav ul {
+  text-align : center;
+  list-style : none;
+  padding : 5px;
+  }
+nav li {
+  text-align : center;
+  color : #000000;
+  display:inline;
+  padding : 10px;
+  text-decoration : none;
+  }
+nav a {
+  text-align : center;
+  color : #000000;
+  padding : 1%;
+  text-decoration : none;
+  }
+nav a:hover {
+  background-color : #322f2c;
+  color : #ffffff;
+  border-radius : 10px;
+  }
+
+.clear  {
+  clear : both;
+  }
+#social {
+  text-align : center;
+  }
+#social img {
+  padding-top : 5px;
+  height : 50px;
+  width : 50px;
+  max-width : 22%;
+  height : auto;
+  width : auto;
+  }
+#social ul {
+  text-align : center;
+  list-style : none;
+  padding : 0px;
+  }
+#social li {
+  text-align : center;
+  color : #000000;
+  display:inline;
+  padding : 0px;
+  text-decoration : none;
+  }
+#social a {
+  text-align : center;
+  color : #000000;
+  padding : 0px;
+  text-decoration : none;
+  }
+.left-col {
+  background : #dad5c1;
+  width : 60%;
+  float : left;
+  margin-top : 2%;
+  border-radius : 10px;
+  }
+.sidebar {
+  background : #dad5c1;
+  width : 38%;
+  float : right;
+  margin-top : 2%;
+  border-radius : 10px;
+}
+.vid {
+  position : relative;
+  padding-bottom : 56.25%;
+  padding-top : 30px;
+  overflow : hidden;
+  height : 0;
+  }
+.vid iframe {
+  position : absolute;
+  top : 0;
+  left : 0;
+  background-color : #ff0000;
+  background : #ff0000;
+  }
+.dogVideo {
+}
+footer {
+  background : #a09885;
+  border-radius : 10px;
+  }
+  
+/*---Media---*/
+
+@media screen and (max-width: 740px) {
+  .left-col {
+    width : 100%;
+  }
+  .sidebar {
+    width : 100%;
+  }
+}
+  
